@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: inline-flex;
+    box-shadow: rgba(120, 116, 116, 0.24) 0px 3px 8px;
+    width: 100%;
+    margin-top: 1px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.logo img {
+    margin-left: 10px;
+}
+
+.search-box {
+    position: relative;
+    margin-left: 10px;
+}
+
+.search-box i {
+    position: absolute;
+    left: 5px;
+    top: 19px;
+    color: grey;
+}
+
+.search-box input {
+    padding-left: 25px;
+    margin-top: 15px;
+    height: 25px;
+    width: 240px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+.mid-icons {
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    color: gray;
+    margin-left: 170px;
+}
+
+.right-icons {
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    color: gray;
+    margin-left: 290px;
+    margin-top: 8px;
+}
+
+.right-icons i,
+.mid-icons i {
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.right-icons i:hover,
+.mid-icons i:hover {
+
+    background-color: rgb(163, 159, 159);
+    border-radius: 50%;
+    transform: scale(1.2);
+
+}
+
+/* left side bar */
+
+.container {
+    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-part {
+    width: 30%;
+    height: 540px;
+
+    /* overflow-y: scroll; */
+}
+
+
+.mid-part {
+    width: 80%;
+
+
+}
+
+.search-bar {
+  box-shadow: rgba(41, 41, 41, 0.35) 0px 5px 15px;
+    margin-top: 5px;
+    height: 65px;
+
+}
+
+.search-bar img {
+    border-radius: 50%;
+    margin-top: 0px;
+    border: 2px solid gray;
+
+}
+
+.search-bar input {
+    padding-left: 10px;
+    height: 30px;
+    width: 350px;
+    font-size: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(236, 235, 235);
+    position: absolute;
+    top: 80px;
+}
+
+.search-bar i {
+    margin-left: 20px;
+}
+
+#one-icon {
+    margin-left: 370px;
+    margin-top: 25px
+}
+
+.story-img{
+    height: 150px;
+    width: 120px;
+    
+    margin-top: 15px;
+   
+    position: relative;
+    overflow: hidden;
+ box-shadow: rgb(179, 184, 190) 0px 20px 30px -10px;
+}
+
+.story-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.story-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(36, 34, 34, 0.4); 
+}
+
+
+.story-img i{
+    position: absolute;
+    right: 50px;
+    top: 40%;
+    background-color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.story-img p{
+    position: absolute;
+    right: 22px;
+    top: 60%;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    
+    z-index: 2;
+}
+.sccrol-sec{
+width: 100%;
+height: 300px;
+margin-top: 10px;
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+.upload-box{
+    display: inline-flex;
+    font-size: 15px;
+}
+.upload-box p{
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.p-ends{
+ margin-left: 250px;
+
+    
+}
+.p-ends span{
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.right-part {
+    width: 40%;
+    height: auto;
+   
+}
+
+.see-dp img{
+      border-radius: 50%;
+    margin-top: 0px;
+    border: 2px solid rgb(233, 227, 227);
+    margin-top: 12px;
+    margin-left: 10px;
+    
+}
+
+.see-dp{
+    display: inline-flex;
+}
+.see-dp p{
+    padding-top: 20px;
+    padding-left: 7px;
+    font-size: 18px;
+}
+.prof{
+    padding-left: 50px;
+  position: absolute;
+  top: 96px;
+ left: 910px;
+  font-size: 12px;
+}
+.amir-img img{
+    border-radius: 50%;
+    margin-top: 0px;
+      border: 2px solid rgb(233, 227, 227);
+      margin-left: 10px;
+}
+.freind-req p{
+padding-left: 10px;
+}
+.freind-req{
+    box-shadow: rgba(56, 61, 66, 0.2) 0px 8px 24px;
+    width: 120%;
+    height: 160px;
+}
+ .one{
+    width: 130px;
+    height: 40px;
+    background-color: #0866ff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.two{
+    width: 130px;
+    height: 40px;
+    background-color: #abafb5;
+    border: none;
+    border-radius: 10px;
+    color: rgb(28, 26, 26);
+    margin-left: 10px;
+    margin-top: 5px;
+} 
